@@ -42,5 +42,7 @@ change the location of you .ps1
 ```
 -File drive:\Your\Folder\SPt.ps1  
 ``` 
+### Execute the .bat File 
+You can execute like a normal user or admin
 ## Donation
 Give a ⭐ if this project helped you!
