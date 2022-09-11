@@ -16,6 +16,31 @@ Windows 10 Enterprise LTSC:
 ltsb:
 1. SurfacePro 4
 2. SurfacePro
+## Setup
 
+### Important Files
+ .ps1 :
+ The Powershell-Script looks inside the extracted folder and chooses all the ".inf" files and then installs them with [(pnputil)](https://docs.microsoft.com/de-de/windows-server/administration/windows-commands/pnputil)
+ 
+ .bat:
+ Changes PowerShell execution policies for Windows computers with the help of "Execution-policy"
+
+### Extract msi.package 
+
+1. Access a command prompt and execute :
+```
+msiexec /a drive:\filepath\to\MSI\file /qb TARGETDIR=drive:\filepath\to\target\folder
+```
+
+### Setup Powershell-Script
+change your driver path on .ps1 
+```
+$driverPath= @("drive:\your_extracted_folder\")
+```
+### Setup .bat File
+change the location of you .ps1
+```
+-File drive:\Your\Folder\SPt.ps1  
+``` 
 ## Donation
 Give a ⭐ if this project helped you!
