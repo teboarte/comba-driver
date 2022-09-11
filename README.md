@@ -13,7 +13,7 @@ Windows 10 Enterprise LTSC:
 3. SurfacePro 6
 4. SurfacePro 7
 
-ltsb:
+Windows 10 Enterprise ltsb:
 1. SurfacePro 4
 2. SurfacePro
 ## Setup
